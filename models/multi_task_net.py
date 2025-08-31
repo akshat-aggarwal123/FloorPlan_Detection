@@ -34,7 +34,7 @@ class DeepFloorplanNet(nn.Module):
         # Apply spatial context module
         contextual_room_features = self.spatial_context(boundary_intermediate, room_intermediate)
         
-        # CRITICAL FIX: Ensure contextual features are 512x512 before final conv
+        # Ensure contextual features are 512x512 before final conv
         if contextual_room_features.shape[2] != 512 or contextual_room_features.shape[3] != 512:
             contextual_room_features = F.interpolate(
                 contextual_room_features, 
@@ -45,10 +45,6 @@ class DeepFloorplanNet(nn.Module):
         
         # Final room prediction
         room_output_refined = self.room_final(contextual_room_features)
-        
-        # Debug prints (remove after confirming fix works)
-        # print(f"Boundary output shape: {boundary_output.shape}")
-        # print(f"Room output refined shape: {room_output_refined.shape}")
         
         return {
             'boundary': boundary_output,

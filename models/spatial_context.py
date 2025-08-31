@@ -24,13 +24,8 @@ class SpatialContextModule(nn.Module):
         self.relu = nn.ReLU(inplace=True)
         
     def forward(self, boundary_features, room_features):
-        # Debug prints to see input shapes
-        # print(f"SpatialContext - boundary_features shape: {boundary_features.shape}")
-        # print(f"SpatialContext - room_features shape: {room_features.shape}")
-        
         # Ensure both features have the same spatial dimensions
         if boundary_features.shape[2:] != room_features.shape[2:]:
-            # Upsample the smaller one to match the larger
             target_size = max(boundary_features.shape[2], room_features.shape[2])
             target_size = (target_size, target_size)
             
@@ -64,7 +59,7 @@ class SpatialContextModule(nn.Module):
         # Apply second attention
         contextual_features = fused_features * attention_weights
         
-        # CRITICAL FIX: Ensure output is always 512x512
+        # Ensure output is always 512x512
         if contextual_features.shape[2] != 512 or contextual_features.shape[3] != 512:
             contextual_features = F.interpolate(
                 contextual_features, 
@@ -72,7 +67,5 @@ class SpatialContextModule(nn.Module):
                 mode="bilinear", 
                 align_corners=False
             )
-        
-        # print(f"SpatialContext - output shape: {contextual_features.shape}")
         
         return contextual_features
