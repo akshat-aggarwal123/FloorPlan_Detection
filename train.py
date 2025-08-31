@@ -43,6 +43,26 @@ def compute_detailed_metrics(preds, labels, num_classes):
     return acc, precision, recall, f1
 
 
+def get_dataloader_config():
+    """Get optimal DataLoader configuration for current platform"""
+    if os.name == 'nt':  # Windows
+        print("Detected Windows - using single-threaded data loading")
+        return {
+            'num_workers': 0,  # Use main thread on Windows
+            'pin_memory': torch.cuda.is_available(),
+            'persistent_workers': False,
+            # prefetch_factor is only available with num_workers > 0
+        }
+    else:  # Linux/Mac
+        print("Detected Unix-like system - using multi-threaded data loading")
+        return {
+            'num_workers': min(4, os.cpu_count()),
+            'pin_memory': torch.cuda.is_available(),
+            'persistent_workers': True,
+            'prefetch_factor': 2
+        }
+
+
 def train_model():
     config = Config()
     
@@ -66,27 +86,24 @@ def train_model():
     print(f"Training samples: {len(train_dataset)}")
     print(f"Validation samples: {len(val_dataset)}")
     
-    # Optimized DataLoaders
+    # Get platform-specific DataLoader config
+    loader_config = get_dataloader_config()
+    
+    # Optimized DataLoaders with Windows compatibility
     train_loader = DataLoader(
         train_dataset, 
-        batch_size=config.BATCH_SIZE * 2,  # Increase batch size if memory allows
+        batch_size=config.BATCH_SIZE,
         shuffle=True, 
-        num_workers=min(8, os.cpu_count()),  # Optimize workers
-        pin_memory=True if torch.cuda.is_available() else False,
-        persistent_workers=True,
-        prefetch_factor=4,  # Increased prefetch
-        drop_last=True  # Avoid variable batch sizes
+        drop_last=True,  # Avoid variable batch sizes
+        **loader_config
     )
     
     val_loader = DataLoader(
         val_dataset, 
-        batch_size=config.BATCH_SIZE * 4,  # Larger batch for validation
+        batch_size=config.BATCH_SIZE * 2,  # Larger batch for validation
         shuffle=False, 
-        num_workers=min(4, os.cpu_count()),
-        pin_memory=True if torch.cuda.is_available() else False,
-        persistent_workers=True,
-        prefetch_factor=4,
-        drop_last=False
+        drop_last=False,
+        **{k: v for k, v in loader_config.items() if k != 'prefetch_factor'}  # Remove prefetch_factor for validation
     )
     
     # Model with compilation (PyTorch 2.0+)
@@ -95,11 +112,15 @@ def train_model():
     model.to(config.DEVICE)
     
     # Try to compile model for faster inference (PyTorch 2.0+)
-    try:
-        model = torch.compile(model, mode='reduce-overhead')
-        print("Model compiled with torch.compile for faster training")
-    except:
-        print("torch.compile not available, using standard model")
+    # Skip compilation on Windows or if Triton is not available
+    if os.name != 'nt':  # Skip on Windows
+        try:
+            model = torch.compile(model, mode='reduce-overhead')
+            print("Model compiled with torch.compile for faster training")
+        except Exception as e:
+            print(f"torch.compile not available ({str(e)}), using standard model")
+    else:
+        print("Skipping torch.compile on Windows (Triton not supported)")
     
     if torch.cuda.device_count() > 1:
         print(f"Using {torch.cuda.device_count()} GPUs with DataParallel")
@@ -108,7 +129,7 @@ def train_model():
     # Optimized optimizer and scheduler
     optimizer = optim.AdamW(
         model.parameters(), 
-        lr=config.LEARNING_RATE * 2,  # Increase learning rate with larger batch
+        lr=config.LEARNING_RATE,
         weight_decay=1e-4,
         betas=(0.9, 0.999)
     )
@@ -299,14 +320,16 @@ def profile_training_speed():
     
     print("🔍 Profiling training speed...")
     
+    # Get platform-specific DataLoader config
+    loader_config = get_dataloader_config()
+    
     # Test dataset loading speed
     train_dataset = FloorplanDataset('data/data/processed/train', config, is_train=True)
     train_loader = DataLoader(
         train_dataset, 
         batch_size=config.BATCH_SIZE,
-        shuffle=True, 
-        num_workers=config.NUM_WORKERS,
-        pin_memory=True if torch.cuda.is_available() else False
+        shuffle=True,
+        **loader_config
     )
     
     # Time data loading
@@ -340,11 +363,28 @@ def profile_training_speed():
     print(f"Average forward pass time: {forward_time:.3f}s")
     
     if data_loading_time > forward_time * 2:
-        print("⚠️  Data loading is the bottleneck! Increase num_workers or optimize preprocessing")
+        print("⚠️  Data loading is the bottleneck! Consider pre-caching data or optimizing preprocessing")
     elif forward_time > data_loading_time * 2:
         print("⚠️  Model forward pass is the bottleneck! Consider reducing model size or input resolution")
     else:
         print("✅ Balanced data loading and model computation")
+
+
+def get_dataloader_config():
+    """Get optimal DataLoader configuration for current platform"""
+    if os.name == 'nt':  # Windows
+        return {
+            'num_workers': 0,  # Use main thread on Windows
+            'pin_memory': torch.cuda.is_available(),
+            'persistent_workers': False,
+        }
+    else:  # Linux/Mac
+        return {
+            'num_workers': min(4, os.cpu_count()),
+            'pin_memory': torch.cuda.is_available(),
+            'persistent_workers': True,
+            'prefetch_factor': 2
+        }
 
 
 if __name__ == "__main__":

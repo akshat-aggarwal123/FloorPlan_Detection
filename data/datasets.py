@@ -1,7 +1,7 @@
 from email.headerregistry import DateHeader
 import time
 import torch
-from torch.utils.data import Dataset
+from torch.utils.data import Dataset, DataLoader
 import cv2
 import numpy as np
 import os
@@ -13,7 +13,7 @@ import pickle
 from concurrent.futures import ThreadPoolExecutor
 import threading
 
-class OptimizedFloorplanDataset(Dataset):
+class FloorplanDataset(Dataset):
     def __init__(self, data_dir, config, is_train=True, cache_data=True):
         self.data_dir = data_dir
         self.config = config
@@ -30,16 +30,22 @@ class OptimizedFloorplanDataset(Dataset):
         self.cache_dir = os.path.join(data_dir, 'cache')
         os.makedirs(self.cache_dir, exist_ok=True)
         
-        # Memory cache for frequently accessed data
+        # Initialize memory cache without locks (for multiprocessing compatibility)
         self.memory_cache = {}
-        self.cache_lock = threading.Lock()
+        # Remove the threading lock as it can't be pickled
+        # self.cache_lock = threading.Lock()  # This causes the pickle error
         
-        # Optimized data augmentation - fewer transforms for speed
+        # Optimized data augmentation - separate image and mask transforms
         if is_train:
-            self.transform = A.Compose([
+            # Transforms that affect both image and masks
+            self.spatial_transform = A.Compose([
                 A.Resize(config.INPUT_SIZE, config.INPUT_SIZE, interpolation=cv2.INTER_LINEAR),
                 A.HorizontalFlip(p=0.5),
                 A.RandomRotate90(p=0.5),
+            ], additional_targets={'boundary': 'mask', 'room': 'mask'})
+            
+            # Transforms that only affect the image
+            self.image_transform = A.Compose([
                 A.RandomBrightnessContrast(brightness_limit=0.1, contrast_limit=0.1, p=0.3),
                 A.Normalize(
                     mean=[0.485, 0.456, 0.406], 
@@ -47,17 +53,21 @@ class OptimizedFloorplanDataset(Dataset):
                     max_pixel_value=255.0
                 ),
                 ToTensorV2()
-            ], additional_targets={'boundary': 'mask', 'room': 'mask'})
+            ])
         else:
-            self.transform = A.Compose([
+            # Validation transforms
+            self.spatial_transform = A.Compose([
                 A.Resize(config.INPUT_SIZE, config.INPUT_SIZE, interpolation=cv2.INTER_LINEAR),
+            ], additional_targets={'boundary': 'mask', 'room': 'mask'})
+            
+            self.image_transform = A.Compose([
                 A.Normalize(
                     mean=[0.485, 0.456, 0.406], 
                     std=[0.229, 0.224, 0.225],
                     max_pixel_value=255.0
                 ),
                 ToTensorV2()
-            ], additional_targets={'boundary': 'mask', 'room': 'mask'})
+            ])
         
         # Pre-cache data if enabled
         if cache_data:
@@ -129,10 +139,9 @@ class OptimizedFloorplanDataset(Dataset):
         return len(self.image_files)
     
     def __getitem__(self, idx):
-        # Try memory cache first
-        with self.cache_lock:
-            if idx in self.memory_cache:
-                return self.memory_cache[idx]
+        # Check memory cache (without locks since each worker has its own instance)
+        if idx in self.memory_cache:
+            return self.memory_cache[idx]
         
         # Load from disk cache or raw data
         if hasattr(self, 'cached_data') and self.cached_data[idx] is not None:
@@ -148,19 +157,30 @@ class OptimizedFloorplanDataset(Dataset):
         
         # Apply transformations
         try:
-            transformed = self.transform(
+            # Apply spatial transforms to image and masks together
+            spatial_transformed = self.spatial_transform(
                 image=image, 
                 boundary=boundary_label, 
                 room=room_label
             )
             
-            image = transformed['image']
-            boundary_label = torch.from_numpy(transformed['boundary']).long()
-            room_label = torch.from_numpy(transformed['room']).long()
+            # Apply image-only transforms
+            image_transformed = self.image_transform(image=spatial_transformed['image'])
+            
+            image = image_transformed['image']
+            boundary_label = torch.from_numpy(spatial_transformed['boundary']).long()
+            room_label = torch.from_numpy(spatial_transformed['room']).long()
             
         except Exception as e:
             print(f"Transform error for idx {idx}: {e}")
-            # Fallback to simple resize
+            # Fallback to simple resize - ensure we're working with numpy arrays
+            if isinstance(image, torch.Tensor):
+                image = image.cpu().numpy()
+            if isinstance(boundary_label, torch.Tensor):
+                boundary_label = boundary_label.cpu().numpy()
+            if isinstance(room_label, torch.Tensor):
+                room_label = room_label.cpu().numpy()
+                
             image = cv2.resize(image, (self.config.INPUT_SIZE, self.config.INPUT_SIZE))
             boundary_label = cv2.resize(boundary_label, (self.config.INPUT_SIZE, self.config.INPUT_SIZE))
             room_label = cv2.resize(room_label, (self.config.INPUT_SIZE, self.config.INPUT_SIZE))
@@ -172,10 +192,9 @@ class OptimizedFloorplanDataset(Dataset):
         
         result = (image, boundary_label, room_label)
         
-        # Cache in memory for frequently accessed items
-        if len(self.memory_cache) < 100:  # Limit memory cache size
-            with self.cache_lock:
-                self.memory_cache[idx] = result
+        # Cache in memory for frequently accessed items (no lock needed in multiprocessing)
+        if len(self.memory_cache) < 50:  # Reduced cache size for multiprocessing
+            self.memory_cache[idx] = result
         
         return result
 
@@ -197,17 +216,36 @@ class OptimizedConfig:
         self.BOUNDARY_WEIGHT = 1.0
         self.ROOM_WEIGHT = 1.0
         
-        # Hardware optimization
-        self.NUM_WORKERS = min(8, os.cpu_count())
+        # Hardware optimization - Windows multiprocessing fix
+        # Use fewer workers on Windows to avoid pickle issues
+        self.NUM_WORKERS = 0 if os.name == 'nt' else min(4, os.cpu_count())
         self.DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         
         # Memory optimization
         self.PIN_MEMORY = torch.cuda.is_available()
-        self.PERSISTENT_WORKERS = True
+        self.PERSISTENT_WORKERS = False if os.name == 'nt' else True  # Disable on Windows
         
         # Early stopping parameters
         self.PATIENCE = 10
         self.MIN_DELTA = 0.001
+
+
+def get_optimal_dataloader_config():
+    """Get optimal DataLoader configuration for current platform"""
+    if os.name == 'nt':  # Windows
+        return {
+            'num_workers': 0,  # Use main thread on Windows
+            'pin_memory': torch.cuda.is_available(),
+            'persistent_workers': False,
+            'prefetch_factor': None  # Only available with num_workers > 0
+        }
+    else:  # Linux/Mac
+        return {
+            'num_workers': min(4, os.cpu_count()),
+            'pin_memory': torch.cuda.is_available(),
+            'persistent_workers': True,
+            'prefetch_factor': 2
+        }
 
 
 def benchmark_data_loading():
@@ -216,26 +254,41 @@ def benchmark_data_loading():
     
     print("🚀 Benchmarking data loading configurations...")
     
-    configurations = [
-        {'batch_size': 8, 'num_workers': 2, 'pin_memory': False},
-        {'batch_size': 16, 'num_workers': 4, 'pin_memory': True},
-        {'batch_size': 32, 'num_workers': 8, 'pin_memory': True},
-        {'batch_size': 16, 'num_workers': 8, 'pin_memory': True, 'persistent_workers': True},
-    ]
+    # Get platform-specific optimal config
+    optimal_config = get_optimal_dataloader_config()
+    
+    # Test configurations suitable for Windows
+    if os.name == 'nt':
+        configurations = [
+            {'batch_size': 8, 'num_workers': 0, 'pin_memory': False},
+            {'batch_size': 16, 'num_workers': 0, 'pin_memory': True},
+            {'batch_size': 32, 'num_workers': 0, 'pin_memory': True},
+        ]
+    else:
+        configurations = [
+            {'batch_size': 8, 'num_workers': 2, 'pin_memory': False},
+            {'batch_size': 16, 'num_workers': 4, 'pin_memory': True},
+            {'batch_size': 32, 'num_workers': 8, 'pin_memory': True},
+            {'batch_size': 16, 'num_workers': 8, 'pin_memory': True, 'persistent_workers': True},
+        ]
     
     for i, cfg in enumerate(configurations):
         print(f"\nTesting configuration {i+1}: {cfg}")
         
-        dataset = OptimizedFloorplanDataset('data/data/processed/train', config, is_train=True)
-        loader = DateHeader(dataset, **cfg)
-        
-        start_time = time.time()
-        for j, batch in enumerate(loader):
-            if j >= 20:  # Test 20 batches
-                break
-        
-        avg_time = (time.time() - start_time) / 20
-        print(f"Average time per batch: {avg_time:.3f}s")
+        try:
+            dataset = FloorplanDataset('data/data/processed/train', config, is_train=True)
+            loader = DataLoader(dataset, **cfg)
+            
+            start_time = time.time()
+            for j, batch in enumerate(loader):
+                if j >= 10:  # Test 10 batches
+                    break
+            
+            avg_time = (time.time() - start_time) / 10
+            print(f"Average time per batch: {avg_time:.3f}s")
+            
+        except Exception as e:
+            print(f"Configuration failed: {e}")
 
 
 if __name__ == "__main__":

@@ -58,6 +58,10 @@ training_log.txt
 # processed_data/
 # annotations/
 
+data/data/processed/*
+data/data/raw/*
+data/raw/*
+
 # Results & Outputs
 # results/
 # outputs/
