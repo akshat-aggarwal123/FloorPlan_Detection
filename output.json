@@ -1,0 +1,3233 @@
+{
+  "floorplanner": {
+    "version": "2.0.1a",
+    "corners": {
+      "corner_0": {
+        "x": -9.53125,
+        "y": -9.8046875,
+        "elevation": 2.5
+      },
+      "corner_1": {
+        "x": 9.21875,
+        "y": -9.8046875,
+        "elevation": 2.5
+      },
+      "corner_2": {
+        "x": 9.4921875,
+        "y": -0.15625,
+        "elevation": 2.5
+      },
+      "corner_3": {
+        "x": -8.8671875,
+        "y": 8.828125,
+        "elevation": 2.5
+      },
+      "corner_4": {
+        "x": -1.40625,
+        "y": 8.828125,
+        "elevation": 2.5
+      },
+      "corner_5": {
+        "x": -9.6875,
+        "y": 0.3515625,
+        "elevation": 2.5
+      },
+      "corner_6": {
+        "x": -9.6875,
+        "y": -2.6953125,
+        "elevation": 2.5
+      },
+      "corner_7": {
+        "x": -1.0546875,
+        "y": 4.609375,
+        "elevation": 2.5
+      },
+      "corner_8": {
+        "x": -1.0546875,
+        "y": 0.546875,
+        "elevation": 2.5
+      },
+      "corner_9": {
+        "x": 1.8359375,
+        "y": 8.7890625,
+        "elevation": 2.5
+      },
+      "corner_10": {
+        "x": 5.3125,
+        "y": 5.3125,
+        "elevation": 2.5
+      },
+      "corner_11": {
+        "x": -4.6875,
+        "y": -2.5390625,
+        "elevation": 2.5
+      },
+      "corner_12": {
+        "x": -3.75,
+        "y": -1.6015625,
+        "elevation": 2.5
+      },
+      "corner_13": {
+        "x": 0.9375,
+        "y": -7.1484375,
+        "elevation": 2.5
+      },
+      "corner_14": {
+        "x": 4.3359375,
+        "y": -7.1484375,
+        "elevation": 2.5
+      },
+      "corner_15": {
+        "x": -5.3515625,
+        "y": -4.8046875,
+        "elevation": 2.5
+      },
+      "corner_16": {
+        "x": -2.5,
+        "y": -1.953125,
+        "elevation": 2.5
+      },
+      "corner_17": {
+        "x": 0.625,
+        "y": -3.2421875,
+        "elevation": 2.5
+      },
+      "corner_18": {
+        "x": 0.625,
+        "y": -6.8359375,
+        "elevation": 2.5
+      },
+      "corner_19": {
+        "x": -8.515625,
+        "y": 2.96875,
+        "elevation": 2.5
+      },
+      "corner_20": {
+        "x": -8.515625,
+        "y": 1.6015625,
+        "elevation": 2.5
+      },
+      "corner_21": {
+        "x": -5.625,
+        "y": 0.3515625,
+        "elevation": 2.5
+      },
+      "corner_22": {
+        "x": -1.40625,
+        "y": 0.2734375,
+        "elevation": 2.5
+      },
+      "corner_23": {
+        "x": 5.5078125,
+        "y": -1.953125,
+        "elevation": 2.5
+      },
+      "corner_24": {
+        "x": 6.640625,
+        "y": -1.953125,
+        "elevation": 2.5
+      },
+      "corner_25": {
+        "x": 0.0,
+        "y": 9.6484375,
+        "elevation": 2.5
+      },
+      "corner_26": {
+        "x": 0.859375,
+        "y": 8.828125,
+        "elevation": 2.5
+      },
+      "corner_27": {
+        "x": -7.3828125,
+        "y": -5.078125,
+        "elevation": 2.5
+      },
+      "corner_28": {
+        "x": -3.4765625,
+        "y": 2.9296875,
+        "elevation": 2.5
+      },
+      "corner_29": {
+        "x": -3.4765625,
+        "y": 0.2734375,
+        "elevation": 2.5
+      },
+      "corner_30": {
+        "x": -0.2734375,
+        "y": -0.234375,
+        "elevation": 2.5
+      },
+      "corner_31": {
+        "x": -0.2734375,
+        "y": -2.3828125,
+        "elevation": 2.5
+      },
+      "corner_32": {
+        "x": -9.6875,
+        "y": 7.8515625,
+        "elevation": 2.5
+      },
+      "corner_33": {
+        "x": -9.6875,
+        "y": 5.6640625,
+        "elevation": 2.5
+      },
+      "corner_34": {
+        "x": 5.2734375,
+        "y": -5.3515625,
+        "elevation": 2.5
+      },
+      "corner_35": {
+        "x": 7.1484375,
+        "y": -3.4765625,
+        "elevation": 2.5
+      },
+      "corner_36": {
+        "x": 8.359375,
+        "y": -3.359375,
+        "elevation": 2.5
+      },
+      "corner_37": {
+        "x": 8.359375,
+        "y": -4.4140625,
+        "elevation": 2.5
+      },
+      "corner_38": {
+        "x": 3.046875,
+        "y": -2.890625,
+        "elevation": 2.5
+      },
+      "corner_39": {
+        "x": 5.1171875,
+        "y": -0.8203125,
+        "elevation": 2.5
+      },
+      "corner_40": {
+        "x": 2.5390625,
+        "y": -3.125,
+        "elevation": 2.5
+      },
+      "corner_41": {
+        "x": 7.734375,
+        "y": -2.8125,
+        "elevation": 2.5
+      },
+      "corner_42": {
+        "x": 7.734375,
+        "y": -5.078125,
+        "elevation": 2.5
+      },
+      "corner_43": {
+        "x": 5.390625,
+        "y": 4.4921875,
+        "elevation": 2.5
+      },
+      "corner_44": {
+        "x": 8.3203125,
+        "y": 1.5625,
+        "elevation": 2.5
+      },
+      "corner_45": {
+        "x": -5.8984375,
+        "y": 3.7890625,
+        "elevation": 2.5
+      },
+      "corner_46": {
+        "x": -5.8984375,
+        "y": 2.421875,
+        "elevation": 2.5
+      },
+      "corner_47": {
+        "x": -6.875,
+        "y": 6.3671875,
+        "elevation": 2.5
+      },
+      "corner_48": {
+        "x": -6.4453125,
+        "y": 6.3671875,
+        "elevation": 2.5
+      },
+      "corner_49": {
+        "x": -9.6484375,
+        "y": -7.34375,
+        "elevation": 2.5
+      },
+      "corner_50": {
+        "x": -7.109375,
+        "y": 4.453125,
+        "elevation": 2.5
+      },
+      "corner_51": {
+        "x": -1.1328125,
+        "y": 9.140625,
+        "elevation": 2.5
+      },
+      "corner_52": {
+        "x": 0.5078125,
+        "y": 9.140625,
+        "elevation": 2.5
+      },
+      "corner_53": {
+        "x": -0.8203125,
+        "y": 6.6015625,
+        "elevation": 2.5
+      },
+      "corner_54": {
+        "x": -0.78125,
+        "y": 8.28125,
+        "elevation": 2.5
+      },
+      "corner_55": {
+        "x": -3.7109375,
+        "y": -0.3515625,
+        "elevation": 2.5
+      },
+      "corner_56": {
+        "x": 4.6484375,
+        "y": -4.7265625,
+        "elevation": 2.5
+      },
+      "corner_57": {
+        "x": 5.5859375,
+        "y": -6.09375,
+        "elevation": 2.5
+      },
+      "corner_58": {
+        "x": 6.640625,
+        "y": -5.0390625,
+        "elevation": 2.5
+      },
+      "corner_59": {
+        "x": -3.90625,
+        "y": 6.640625,
+        "elevation": 2.5
+      },
+      "corner_60": {
+        "x": -3.1640625,
+        "y": 6.6796875,
+        "elevation": 2.5
+      },
+      "corner_61": {
+        "x": 5.3515625,
+        "y": -6.40625,
+        "elevation": 2.5
+      },
+      "corner_62": {
+        "x": 5.9375,
+        "y": -6.9921875,
+        "elevation": 2.5
+      },
+      "corner_63": {
+        "x": 7.7734375,
+        "y": -2.2265625,
+        "elevation": 2.5
+      },
+      "corner_64": {
+        "x": 0.3125,
+        "y": 8.28125,
+        "elevation": 2.5
+      },
+      "corner_65": {
+        "x": 8.359375,
+        "y": -5.703125,
+        "elevation": 2.5
+      },
+      "corner_66": {
+        "x": 8.359375,
+        "y": -6.328125,
+        "elevation": 2.5
+      },
+      "corner_67": {
+        "x": 4.765625,
+        "y": -2.6953125,
+        "elevation": 2.5
+      },
+      "corner_68": {
+        "x": 4.609375,
+        "y": -3.515625,
+        "elevation": 2.5
+      },
+      "corner_69": {
+        "x": -8.2421875,
+        "y": 6.3671875,
+        "elevation": 2.5
+      },
+      "corner_70": {
+        "x": -7.3828125,
+        "y": 6.3671875,
+        "elevation": 2.5
+      },
+      "corner_71": {
+        "x": -7.3828125,
+        "y": 0.7421875,
+        "elevation": 2.5
+      },
+      "corner_72": {
+        "x": -6.796875,
+        "y": 0.15625,
+        "elevation": 2.5
+      },
+      "corner_73": {
+        "x": 0.0390625,
+        "y": 6.796875,
+        "elevation": 2.5
+      },
+      "corner_74": {
+        "x": 0.0390625,
+        "y": 5.703125,
+        "elevation": 2.5
+      },
+      "corner_75": {
+        "x": -5.9375,
+        "y": 4.8046875,
+        "elevation": 2.5
+      },
+      "corner_76": {
+        "x": -5.9375,
+        "y": 5.859375,
+        "elevation": 2.5
+      },
+      "corner_77": {
+        "x": 8.3984375,
+        "y": 0.9375,
+        "elevation": 2.5
+      },
+      "corner_78": {
+        "x": -8.515625,
+        "y": 5.1953125,
+        "elevation": 2.5
+      },
+      "corner_79": {
+        "x": -1.40625,
+        "y": 6.015625,
+        "elevation": 2.5
+      },
+      "corner_80": {
+        "x": -1.40625,
+        "y": 4.9609375,
+        "elevation": 2.5
+      },
+      "corner_81": {
+        "x": -7.7734375,
+        "y": 4.453125,
+        "elevation": 2.5
+      },
+      "corner_82": {
+        "x": -6.2890625,
+        "y": 4.453125,
+        "elevation": 2.5
+      },
+      "corner_83": {
+        "x": -9.6484375,
+        "y": 4.0625,
+        "elevation": 2.5
+      },
+      "corner_84": {
+        "x": -7.4609375,
+        "y": 1.6015625,
+        "elevation": 2.5
+      },
+      "corner_85": {
+        "x": -2.96875,
+        "y": 4.2578125,
+        "elevation": 2.5
+      },
+      "corner_86": {
+        "x": -2.96875,
+        "y": 3.59375,
+        "elevation": 2.5
+      },
+      "corner_87": {
+        "x": -5.3125,
+        "y": 5.3515625,
+        "elevation": 2.5
+      },
+      "corner_88": {
+        "x": 3.359375,
+        "y": -3.1640625,
+        "elevation": 2.5
+      },
+      "corner_89": {
+        "x": 4.296875,
+        "y": -3.1640625,
+        "elevation": 2.5
+      },
+      "corner_90": {
+        "x": 6.015625,
+        "y": -0.8203125,
+        "elevation": 2.5
+      },
+      "corner_91": {
+        "x": 6.5234375,
+        "y": -7.578125,
+        "elevation": 2.5
+      },
+      "corner_92": {
+        "x": 7.6171875,
+        "y": -7.578125,
+        "elevation": 2.5
+      },
+      "corner_93": {
+        "x": -5.46875,
+        "y": 4.21875,
+        "elevation": 2.5
+      },
+      "corner_94": {
+        "x": -4.921875,
+        "y": 4.765625,
+        "elevation": 2.5
+      },
+      "corner_95": {
+        "x": -3.75,
+        "y": 4.21875,
+        "elevation": 2.5
+      },
+      "corner_96": {
+        "x": -3.75,
+        "y": 3.515625,
+        "elevation": 2.5
+      },
+      "corner_97": {
+        "x": -3.9453125,
+        "y": 4.6875,
+        "elevation": 2.5
+      },
+      "corner_98": {
+        "x": -3.3984375,
+        "y": 5.3515625,
+        "elevation": 2.5
+      },
+      "corner_99": {
+        "x": -4.0234375,
+        "y": 6.171875,
+        "elevation": 2.5
+      },
+      "corner_100": {
+        "x": -3.984375,
+        "y": 5.390625,
+        "elevation": 2.5
+      },
+      "corner_101": {
+        "x": -5.9765625,
+        "y": -0.6640625,
+        "elevation": 2.5
+      },
+      "corner_102": {
+        "x": -5.078125,
+        "y": -0.6640625,
+        "elevation": 2.5
+      },
+      "corner_103": {
+        "x": -3.0078125,
+        "y": 5.703125,
+        "elevation": 2.5
+      },
+      "corner_104": {
+        "x": 6.796875,
+        "y": -0.9765625,
+        "elevation": 2.5
+      },
+      "corner_105": {
+        "x": 7.6953125,
+        "y": -0.9765625,
+        "elevation": 2.5
+      },
+      "corner_106": {
+        "x": -6.2109375,
+        "y": 1.796875,
+        "elevation": 2.5
+      },
+      "corner_107": {
+        "x": -6.640625,
+        "y": 1.3671875,
+        "elevation": 2.5
+      }
+    },
+    "walls": [
+      {
+        "corner1": "corner_0",
+        "corner2": "corner_1",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 12.0,
+          "y": 5.0
+        },
+        "b": {
+          "x": 492.0,
+          "y": 5.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_1",
+        "corner2": "corner_2",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 499.0,
+          "y": 252.0
+        },
+        "b": {
+          "x": 499.0,
+          "y": 12.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_2",
+        "corner2": "corner_3",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 29.0,
+          "y": 482.0
+        },
+        "b": {
+          "x": 220.0,
+          "y": 482.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_3",
+        "corner2": "corner_4",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 8.0,
+          "y": 265.0
+        },
+        "b": {
+          "x": 8.0,
+          "y": 187.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_4",
+        "corner2": "corner_5",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 229.0,
+          "y": 374.0
+        },
+        "b": {
+          "x": 229.0,
+          "y": 270.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_5",
+        "corner2": "corner_6",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 303.0,
+          "y": 481.0
+        },
+        "b": {
+          "x": 392.0,
+          "y": 392.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_6",
+        "corner2": "corner_7",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 136.0,
+          "y": 191.0
+        },
+        "b": {
+          "x": 160.0,
+          "y": 215.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_7",
+        "corner2": "corner_8",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 280.0,
+          "y": 73.0
+        },
+        "b": {
+          "x": 367.0,
+          "y": 73.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_8",
+        "corner2": "corner_9",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 119.0,
+          "y": 133.0
+        },
+        "b": {
+          "x": 192.0,
+          "y": 206.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_9",
+        "corner2": "corner_10",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 272.0,
+          "y": 173.0
+        },
+        "b": {
+          "x": 272.0,
+          "y": 81.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_10",
+        "corner2": "corner_11",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 38.0,
+          "y": 332.0
+        },
+        "b": {
+          "x": 38.0,
+          "y": 297.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_11",
+        "corner2": "corner_12",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 112.0,
+          "y": 265.0
+        },
+        "b": {
+          "x": 220.0,
+          "y": 263.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_12",
+        "corner2": "corner_13",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 397.0,
+          "y": 206.0
+        },
+        "b": {
+          "x": 426.0,
+          "y": 206.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_13",
+        "corner2": "corner_14",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 256.0,
+          "y": 503.0
+        },
+        "b": {
+          "x": 278.0,
+          "y": 482.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_14",
+        "corner2": "corner_15",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 67.0,
+          "y": 126.0
+        },
+        "b": {
+          "x": 119.0,
+          "y": 126.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_15",
+        "corner2": "corner_16",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 167.0,
+          "y": 331.0
+        },
+        "b": {
+          "x": 167.0,
+          "y": 263.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_16",
+        "corner2": "corner_17",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 249.0,
+          "y": 250.0
+        },
+        "b": {
+          "x": 249.0,
+          "y": 195.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_17",
+        "corner2": "corner_18",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 8.0,
+          "y": 457.0
+        },
+        "b": {
+          "x": 8.0,
+          "y": 401.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_18",
+        "corner2": "corner_19",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 391.0,
+          "y": 119.0
+        },
+        "b": {
+          "x": 439.0,
+          "y": 167.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_19",
+        "corner2": "corner_20",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 470.0,
+          "y": 170.0
+        },
+        "b": {
+          "x": 470.0,
+          "y": 143.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_20",
+        "corner2": "corner_21",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 334.0,
+          "y": 182.0
+        },
+        "b": {
+          "x": 387.0,
+          "y": 235.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_21",
+        "corner2": "corner_22",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 276.0,
+          "y": 176.0
+        },
+        "b": {
+          "x": 321.0,
+          "y": 176.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_22",
+        "corner2": "corner_23",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 454.0,
+          "y": 184.0
+        },
+        "b": {
+          "x": 454.0,
+          "y": 126.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_23",
+        "corner2": "corner_24",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 394.0,
+          "y": 371.0
+        },
+        "b": {
+          "x": 469.0,
+          "y": 296.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_24",
+        "corner2": "corner_25",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 105.0,
+          "y": 353.0
+        },
+        "b": {
+          "x": 105.0,
+          "y": 318.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_25",
+        "corner2": "corner_26",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 80.0,
+          "y": 419.0
+        },
+        "b": {
+          "x": 91.0,
+          "y": 419.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_26",
+        "corner2": "corner_27",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 8.0,
+          "y": 9.0
+        },
+        "b": {
+          "x": 9.0,
+          "y": 68.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_27",
+        "corner2": "corner_28",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 74.0,
+          "y": 413.0
+        },
+        "b": {
+          "x": 74.0,
+          "y": 370.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_28",
+        "corner2": "corner_29",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 227.0,
+          "y": 490.0
+        },
+        "b": {
+          "x": 269.0,
+          "y": 490.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_29",
+        "corner2": "corner_30",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 10.0,
+          "y": 69.0
+        },
+        "b": {
+          "x": 66.0,
+          "y": 125.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_30",
+        "corner2": "corner_31",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 9.0,
+          "y": 184.0
+        },
+        "b": {
+          "x": 66.0,
+          "y": 127.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_31",
+        "corner2": "corner_32",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 235.0,
+          "y": 425.0
+        },
+        "b": {
+          "x": 236.0,
+          "y": 468.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_32",
+        "corner2": "corner_33",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 161.0,
+          "y": 258.0
+        },
+        "b": {
+          "x": 161.0,
+          "y": 247.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_33",
+        "corner2": "corner_34",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 375.0,
+          "y": 135.0
+        },
+        "b": {
+          "x": 390.0,
+          "y": 120.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_34",
+        "corner2": "corner_35",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 399.0,
+          "y": 100.0
+        },
+        "b": {
+          "x": 426.0,
+          "y": 127.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_35",
+        "corner2": "corner_36",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 156.0,
+          "y": 426.0
+        },
+        "b": {
+          "x": 175.0,
+          "y": 427.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_36",
+        "corner2": "corner_37",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 393.0,
+          "y": 92.0
+        },
+        "b": {
+          "x": 408.0,
+          "y": 77.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_37",
+        "corner2": "corner_38",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 455.0,
+          "y": 199.0
+        },
+        "b": {
+          "x": 455.0,
+          "y": 185.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_38",
+        "corner2": "corner_39",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 244.0,
+          "y": 468.0
+        },
+        "b": {
+          "x": 264.0,
+          "y": 468.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_39",
+        "corner2": "corner_40",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 228.0,
+          "y": 270.0
+        },
+        "b": {
+          "x": 248.0,
+          "y": 251.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_40",
+        "corner2": "corner_41",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 11.0,
+          "y": 270.0
+        },
+        "b": {
+          "x": 37.0,
+          "y": 296.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_41",
+        "corner2": "corner_42",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 470.0,
+          "y": 110.0
+        },
+        "b": {
+          "x": 470.0,
+          "y": 94.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_42",
+        "corner2": "corner_43",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 378.0,
+          "y": 187.0
+        },
+        "b": {
+          "x": 396.0,
+          "y": 205.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_43",
+        "corner2": "corner_44",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 374.0,
+          "y": 166.0
+        },
+        "b": {
+          "x": 375.0,
+          "y": 136.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_44",
+        "corner2": "corner_45",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 45.0,
+          "y": 419.0
+        },
+        "b": {
+          "x": 67.0,
+          "y": 419.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_45",
+        "corner2": "corner_46",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 67.0,
+          "y": 275.0
+        },
+        "b": {
+          "x": 82.0,
+          "y": 260.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_46",
+        "corner2": "corner_47",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 257.0,
+          "y": 430.0
+        },
+        "b": {
+          "x": 257.0,
+          "y": 402.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_47",
+        "corner2": "corner_48",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 104.0,
+          "y": 379.0
+        },
+        "b": {
+          "x": 104.0,
+          "y": 406.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_48",
+        "corner2": "corner_49",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 471.0,
+          "y": 280.0
+        },
+        "b": {
+          "x": 498.0,
+          "y": 253.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_49",
+        "corner2": "corner_50",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 38.0,
+          "y": 412.0
+        },
+        "b": {
+          "x": 38.0,
+          "y": 389.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_50",
+        "corner2": "corner_51",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 220.0,
+          "y": 410.0
+        },
+        "b": {
+          "x": 220.0,
+          "y": 383.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_51",
+        "corner2": "corner_52",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 57.0,
+          "y": 370.0
+        },
+        "b": {
+          "x": 95.0,
+          "y": 370.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_52",
+        "corner2": "corner_53",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 9.0,
+          "y": 360.0
+        },
+        "b": {
+          "x": 37.0,
+          "y": 332.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_53",
+        "corner2": "corner_54",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 39.0,
+          "y": 297.0
+        },
+        "b": {
+          "x": 65.0,
+          "y": 297.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_54",
+        "corner2": "corner_55",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 279.0,
+          "y": 482.0
+        },
+        "b": {
+          "x": 301.0,
+          "y": 482.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_55",
+        "corner2": "corner_56",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 180.0,
+          "y": 365.0
+        },
+        "b": {
+          "x": 180.0,
+          "y": 348.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_56",
+        "corner2": "corner_57",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 161.0,
+          "y": 246.0
+        },
+        "b": {
+          "x": 161.0,
+          "y": 223.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_57",
+        "corner2": "corner_58",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 96.0,
+          "y": 371.0
+        },
+        "b": {
+          "x": 120.0,
+          "y": 393.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_58",
+        "corner2": "corner_59",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 342.0,
+          "y": 175.0
+        },
+        "b": {
+          "x": 366.0,
+          "y": 175.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_59",
+        "corner2": "corner_60",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 388.0,
+          "y": 235.0
+        },
+        "b": {
+          "x": 410.0,
+          "y": 235.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_60",
+        "corner2": "corner_61",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 423.0,
+          "y": 62.0
+        },
+        "b": {
+          "x": 451.0,
+          "y": 62.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_61",
+        "corner2": "corner_62",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 116.0,
+          "y": 364.0
+        },
+        "b": {
+          "x": 130.0,
+          "y": 378.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_62",
+        "corner2": "corner_63",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 230.0,
+          "y": 375.0
+        },
+        "b": {
+          "x": 256.0,
+          "y": 401.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_63",
+        "corner2": "corner_64",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 160.0,
+          "y": 364.0
+        },
+        "b": {
+          "x": 160.0,
+          "y": 346.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_64",
+        "corner2": "corner_65",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 8.0,
+          "y": 368.0
+        },
+        "b": {
+          "x": 8.0,
+          "y": 396.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_65",
+        "corner2": "corner_66",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 155.0,
+          "y": 376.0
+        },
+        "b": {
+          "x": 169.0,
+          "y": 393.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_66",
+        "corner2": "corner_67",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 153.0,
+          "y": 414.0
+        },
+        "b": {
+          "x": 154.0,
+          "y": 394.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_67",
+        "corner2": "corner_68",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 103.0,
+          "y": 239.0
+        },
+        "b": {
+          "x": 126.0,
+          "y": 239.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_68",
+        "corner2": "corner_69",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 9.0,
+          "y": 462.0
+        },
+        "b": {
+          "x": 25.0,
+          "y": 478.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_69",
+        "corner2": "corner_70",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 427.0,
+          "y": 127.0
+        },
+        "b": {
+          "x": 453.0,
+          "y": 127.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_70",
+        "corner2": "corner_71",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 179.0,
+          "y": 424.0
+        },
+        "b": {
+          "x": 179.0,
+          "y": 402.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_71",
+        "corner2": "corner_72",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 237.0,
+          "y": 461.0
+        },
+        "b": {
+          "x": 257.0,
+          "y": 461.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_72",
+        "corner2": "corner_73",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 391.0,
+          "y": 118.0
+        },
+        "b": {
+          "x": 391.0,
+          "y": 90.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_73",
+        "corner2": "corner_74",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 430.0,
+          "y": 231.0
+        },
+        "b": {
+          "x": 453.0,
+          "y": 231.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_74",
+        "corner2": "corner_75",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 97.0,
+          "y": 302.0
+        },
+        "b": {
+          "x": 105.0,
+          "y": 312.0
+        },
+        "thickness": 0.1
+      },
+      {
+        "corner1": "corner_75",
+        "corner2": "corner_76",
+        "frontTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "backTexture": {
+          "color": "#e6dcc1",
+          "repeat": 300,
+          "colormap": "textures/Wall/Indianwall/Wall.png",
+          "normalmap": "textures/Wall/Indianwall/Wall_normal.jpg",
+          "rotation": 0,
+          "emissive": "#000000",
+          "reflective": 0.5,
+          "shininess": 0.5
+        },
+        "wallType": "STRAIGHT",
+        "a": {
+          "x": 86.0,
+          "y": 291.0
+        },
+        "b": {
+          "x": 105.0,
+          "y": 272.0
+        },
+        "thickness": 0.1
+      }
+    ],
+    "rooms": {
+      "corner_0,corner_1,corner_2,corner_3": {
+        "name": "Living Room"
+      },
+      "corner_2,corner_3,corner_4,corner_5,corner_6,corner_7,corner_8,corner_9,corner_10,corner_11,corner_12,corner_13,corner_14,corner_15,corner_16,corner_17,corner_18,corner_19,corner_20,corner_21,corner_22,corner_23,corner_24,corner_25,corner_26,corner_27,corner_28,corner_29,corner_30,corner_31,corner_32,corner_33,corner_34,corner_35,corner_36,corner_37,corner_38,corner_39,corner_40,corner_41,corner_42,corner_43,corner_44,corner_45,corner_46,corner_47,corner_48,corner_49,corner_50,corner_51,corner_52,corner_53,corner_54,corner_55,corner_56,corner_57,corner_58,corner_59,corner_60,corner_61,corner_62,corner_63,corner_64,corner_65,corner_66,corner_67,corner_68,corner_69,corner_70,corner_71,corner_72,corner_73,corner_74,corner_75,corner_76,corner_77,corner_78,corner_79,corner_80,corner_81,corner_82,corner_83,corner_84,corner_85,corner_86,corner_87,corner_88,corner_89,corner_90,corner_91,corner_92,corner_93,corner_94,corner_95,corner_96,corner_97,corner_98,corner_99,corner_100,corner_101,corner_102,corner_103,corner_104,corner_105,corner_106,corner_107": {
+        "name": "Bedroom"
+      }
+    },
+    "wallTextures": [],
+    "floorTextures": {},
+    "newFloorTextures": {
+      "default_room": {
+        "name": "Herringbone_MarbleTiles",
+        "repeat": 250,
+        "colormap": "textures/Floor/HerringboneMarbleTiles/HerringboneMarbleTiles01_BaseColor.png",
+        "normalmap": "textures/Floor/HerringboneMarbleTiles/HerringboneMarbleTiles01_Normal.png",
+        "ambientmap": "textures/Floor/HerringboneMarbleTiles/HerringboneMarbleTiles01_AO.png",
+        "roughnessmap": "textures/Floor/HerringboneMarbleTiles/HerringboneMarbleTiles01_Roughness.png",
+        "color": "#FFFFFF",
+        "emissive": "#000000",
+        "reflective": 0.5,
+        "shininess": 0.5
+      }
+    },
+    "carbonSheet": {},
+    "boundary": {
+      "points": [
+        {
+          "x": -20,
+          "y": -20,
+          "elevation": 5
+        },
+        {
+          "x": 20,
+          "y": -20,
+          "elevation": 5
+        },
+        {
+          "x": 20,
+          "y": 20,
+          "elevation": 5
+        },
+        {
+          "x": -20,
+          "y": 20,
+          "elevation": 5
+        }
+      ],
+      "style": {
+        "color": "",
+        "type": "texture",
+        "colormap": "",
+        "repeat": 3000
+      }
+    },
+    "units": "m"
+  },
+  "items": [],
+  "lights": [],
+  "sunlight": [
+    {
+      "name": "SunLight",
+      "position": {
+        "x": 0,
+        "y": 1000,
+        "z": 1000
+      },
+      "intensity": 5,
+      "color": 16777215,
+      "shadow": true,
+      "target": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ],
+  "hemlight": [
+    {
+      "name": "HemisphereLight",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "intensity": 0.6,
+      "color": 16777215
+    }
+  ],
+  "amblight": [
+    {
+      "name": "AmbientLight",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "intensity": 2.5,
+      "color": 16775392
+    }
+  ]
+}

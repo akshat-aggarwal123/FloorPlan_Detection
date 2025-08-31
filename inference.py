@@ -15,9 +15,15 @@ class FloorplanInference:
         self.model = DeepFloorplanNet(
             self.config.NUM_BOUNDARY_CLASSES,
             self.config.NUM_ROOM_CLASSES
-        )
-        self.model.load_state_dict(torch.load(model_path, map_location=self.device))
-        self.model.to(self.device)
+        ).to(self.device)
+        
+        # 🔥 Load checkpoint properly
+        checkpoint = torch.load(model_path, map_location=self.device)
+        if "model_state_dict" in checkpoint:
+            self.model.load_state_dict(checkpoint["model_state_dict"])
+        else:
+            self.model.load_state_dict(checkpoint)  # fallback if only raw weights saved
+
         self.model.eval()
         
         # Initialize processors
@@ -63,5 +69,5 @@ class FloorplanInference:
 
 if __name__ == "__main__":
     # Example usage
-    inference = FloorplanInference("path/to/trained/model.pth")
-    result = inference.predict("path/to/floorplan.png", "output.json")
+    inference = FloorplanInference("./best_model.pth")
+    result = inference.predict("./F1_original_2.png", "output.json")
