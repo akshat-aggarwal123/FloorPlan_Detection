@@ -59,19 +59,19 @@ training_log.txt
 # annotations/
 
 # Results & Outputs
-results/
-outputs/
-predictions/
-visualizations/
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.bmp
-*.tiff
-*.svg
-!sample_images/
-!docs/images/
+# results/
+# outputs/
+# predictions/
+# visualizations/
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.bmp
+# *.tiff
+# *.svg
+# !sample_images/
+# !docs/images/
 
 # IDE & Editor
 .vscode/
