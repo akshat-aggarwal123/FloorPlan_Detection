@@ -49,14 +49,14 @@ wandb/
 training_log.txt
 
 # Dataset & Data Files
-data/
-datasets/
-*.zip
-*.tar.gz
-*.rar
-raw_data/
-processed_data/
-annotations/
+# data/
+# datasets/
+# *.zip
+# *.tar.gz
+# *.rar
+# raw_data/
+# processed_data/
+# annotations/
 
 # Results & Outputs
 results/
